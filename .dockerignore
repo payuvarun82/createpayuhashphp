@@ -1,0 +1,12 @@
+.git
+.gitignore
+.DS_Store
+*.log
+payu_api_logs.txt
+.idea
+.vscode
+*.swp
+*.swo
+.env
+.env.local
+
