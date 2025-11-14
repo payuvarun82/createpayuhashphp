@@ -1,0 +1,28 @@
+[2025-09-02 11:19:32] [INFO] PayU Settlement API Request Started
+[2025-09-02 11:19:32] [DEBUG] === AUTHENTICATION DETAILS ===
+[2025-09-02 11:19:32] [DEBUG] Date: Tue, 02 Sep 2025 11:19:32 GMT
+[2025-09-02 11:19:32] [DEBUG] Hash String: |Tue, 02 Sep 2025 11:19:32 GMT|EYRHI1aPSEPxFVSdsVTFZ1nWweoM5MER
+[2025-09-02 11:19:32] [DEBUG] Generated Hash: 63c44c4ce74e2f797c1dbf5db1367b388b588e20f898c36f327980c9f20f1d01aa461b7732854f990e73cc6f5e530827b0e403e868218cc814b2727beb482fd9
+[2025-09-02 11:19:32] [DEBUG] Authorization Header: hmac username="Fa2IFz", algorithm="sha512", headers="date", signature="63c44c4ce74e2f797c1dbf5db1367b388b588e20f898c36f327980c9f20f1d01aa461b7732854f990e73cc6f5e530827b0e403e868218cc814b2727beb482fd9"
+[2025-09-02 11:19:32] [DEBUG] === AUTHENTICATION END ===
+[2025-09-02 11:19:32] [DEBUG] === REQUEST START ===
+[2025-09-02 11:19:32] [DEBUG] Method: GET
+[2025-09-02 11:19:32] [DEBUG] URL: https://info.payu.in/settlement/range/?pageSize=10000&page=1&dateFrom=2025-07-01
+[2025-09-02 11:19:32] [DEBUG] Headers:
+[2025-09-02 11:19:32] [DEBUG]   Authorization: hmac username="Fa2IFz", algorithm="sha512", headers="date", signature="63c44c4ce74e2f797c1dbf5db1367b388b588e20f898c36f327980c9f20f1d01aa461b7732854f990e73cc6f5e530827b0e403e868218cc814b2727beb482fd9"
+[2025-09-02 11:19:32] [DEBUG]   date: Tue, 02 Sep 2025 11:19:32 GMT
+[2025-09-02 11:19:32] [DEBUG]   mid: 8515874
+[2025-09-02 11:19:32] [DEBUG] === REQUEST END ===
+[2025-09-02 11:19:50] [INFO] Request completed in 18024.72ms
+[2025-09-02 11:19:50] [DEBUG] === RESPONSE START ===
+[2025-09-02 11:19:50] [INFO] HTTP Code: 200
+[2025-09-02 11:19:50] [DEBUG] Total Time: 18.024576s
+[2025-09-02 11:19:50] [DEBUG] Content Type: application/json
+[2025-09-02 11:19:50] [DEBUG] Content Length: 7786952
+[2025-09-02 11:19:50] [DEBUG] Response Body: {"status":0,"result":{"page":1,"size":10000,"totalCount":20183,"data":[{"settlementId":"8515874202506290915","settlementCompletedDate":"2025-07-01 18:24:55","settlementAmount":"8309650.09","merchantId":8515874,"utrNumber":"1314NSMT0076026","transactionAmount":"8646773.22","adjustmentAmount":"0.00","refundAmount":"69185.44","chargebackAmount":"0.00","refundReversalAmount":"0.00","chargebackReversalAmount":"0.00","serviceFee":"313773.88","serviceTax":"23349.25","additionalServiceFee":"0.00","additionalServiceTax":"0.00","numberOfTransactions":6386,"transaction":[{"action":"refund","payuId":"23949680167","requestId":"17397960923","transactionAmount":"-1196.52","merchantServiceFee":"0.00000","merchantServiceTax":"0.00000","merchantNetAmount":"-1196.52","sgst":"0.00000","cgst":"0.00000","igst":"0.00000","merchantTransactionId":"BKH6SVKC78LT8TW2","cardType":"domestic","mode":"SI","paymentStatus":"captured","transactionDate":"2025-06-18 16:42:19","requestDate":"2025-06-29 08:49:54","requested...[truncated]
+[2025-09-02 11:19:50] [DEBUG] === RESPONSE END ===
+[2025-09-02 11:19:50] [INFO] Request successful
+[2025-09-02 11:19:50] [INFO] Valid JSON response received
+[2025-09-02 11:19:50] [DEBUG] Response contains 2 top-level elements
+[2025-09-02 11:19:50] [DEBUG] Response keys: status, result
+[2025-09-02 11:19:50] [INFO] PayU Settlement API Request Completed
